@@ -4,7 +4,7 @@ public class Control
 {
     private TV tv;
 
-    public void enlace(TV tv)
+    public void enlazar(TV tv)
     {
         this.tv = tv;
         tv.setControl(this);
@@ -12,6 +12,10 @@ public class Control
     public void turnOn()
     {
         this.tv.turnOn();
+    }
+    public void turnOff()
+    {
+        this.tv.turnOff();
     }
     public void canalUp()
     {

@@ -10,7 +10,7 @@ public class TV
     private Control control;
     private static int numTV = 0;
 
-    public TV(String marca, boolean estado)
+    public TV(Marca marca, boolean estado)
     {
         this.marca = marca;
         this.estado = estado;
